@@ -1,0 +1,17 @@
+{
+  "name": "generate-slack-message",
+  "version": "1.0.0",
+  "description": "cron task that generates a personnalised Slack Message once a week",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cron": "^1.8.2",
+    "node-cron": "^3.0.0"
+  }
+}
